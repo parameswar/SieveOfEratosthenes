@@ -1,0 +1,9 @@
+Sieve of Eratosthenes
+---------------------
+
+1) Generate a list which contains numbers from 2 to n  where n is the limit specified by the user.
+2) Let p be the first prime number .(which is 2 ).
+3) Remove from the list, those elements which are multiples of p.
+4) The number next to the previous prime number is the next prime.Let it be ‘q’.
+5) If square of q is lesser than or equal to the limit,remove the multiples of q from the list and go to step 4,else stop.
+6) The final list consists of prime numbers only.
